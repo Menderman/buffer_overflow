@@ -1,9 +1,10 @@
 # buffer_overflow
 bof1.c: 有buffer overflow漏洞的程式
 
-exploit.py: 產生觸發bof1.c漏洞的輸入exploit，用來跳到未使用的hacker()函式
+exploit.py: 產生觸發bof1.c漏洞的輸入exploit，跳到指定地址執行程式
 
-執行: ./bof1 < exploit
+執行:`gdb -q bof1`, 
+`r < exploit`
 
 # shellcode
 
