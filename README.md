@@ -6,6 +6,8 @@ exploit.py: 產生觸發bof1.c漏洞的輸入exploit，跳到指定地址執行�
 執行:`gdb -q bof1`, 
 `r < exploit`
 
+![image](https://github.com/Menderman/buffer_overflow/blob/main/screenshot.png)
+
 # shellcode
 
 shell_hello.c: print"HELLO" 放在char[]內，function指標指向char[]執行print function
